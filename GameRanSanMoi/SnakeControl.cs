@@ -6,7 +6,7 @@ namespace RANSANMOI
     {
         public static Point food = new Point(8, 8);
         public static bool foodExist = false;
-        public static int speed = 300;
+        public static int speed = 400;
         public static int row = 20;
         public static int col = 40;
         public static string direction = "Right";
@@ -15,7 +15,7 @@ namespace RANSANMOI
         public static Point _head = new Point(10, 10);
         public static string[,] board = new string[row, col];
 
-        // Xử lý vẽ bảng với try-catch
+        // Xử lý vẽ bảng
         public void Drawboard()
         {
             try
@@ -188,42 +188,27 @@ namespace RANSANMOI
             Console.WriteLine($"Score: {score}");
         }
 
-        // Ghi điểm vào file
-        public static void SaveScore()
+        // để em bổ sung phần ghi điểm
+        public void SaveScore()
         {
             try
-            {
-                using (StreamWriter writer = new StreamWriter("score.txt"))
+            {   
+                string textPath = @"C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\score.txt";
+                using (StreamWriter writer = new StreamWriter(textPath, true))
                 {
                     writer.WriteLine(score);
                 }
             }
-            catch (IOException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("Loi ghi diem vao file: " + ex.Message);
             }
         }
 
         // Đọc điểm từ file
-        public static int LoadScore()
-        {
-            try
-            {
-                using (StreamReader reader = new StreamReader("score.txt"))
-                {
-                    return int.Parse(reader.ReadLine());
-                }
-            }
-            catch (FileNotFoundException)
-            {
-                return 0; // Trả về 0 nếu không tìm thấy file
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Loi doc diem tu file: " + ex.Message);
-                return 0;
-            }
-        }
+        
+        
+        
 
         // Lắng nghe các phím điều khiển và tính năng tạm dừng
         public void ListenKey()
@@ -255,7 +240,7 @@ namespace RANSANMOI
             }
         }
 
-        // Tạm dừng trò chơi
+        // em thử pause game nhưng nó dính lặp vô hạn nên chưa xử lí đ
         public void PauseGame()
         {
             Console.WriteLine("Game pause. Press control to continue...");

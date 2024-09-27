@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GameRanSanMoi/1.0.0": {
+        "runtime": {
+          "GameRanSanMoi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameRanSanMoi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

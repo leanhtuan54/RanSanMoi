@@ -1,0 +1,14 @@
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\bin\Debug\net8.0\GameRanSanMoi.exe
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\bin\Debug\net8.0\GameRanSanMoi.deps.json
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\bin\Debug\net8.0\GameRanSanMoi.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\bin\Debug\net8.0\GameRanSanMoi.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\bin\Debug\net8.0\GameRanSanMoi.pdb
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\refint\GameRanSanMoi.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.pdb
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\GameRanSanMoi.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\GameRanSanMoi\obj\Debug\net8.0\ref\GameRanSanMoi.dll
